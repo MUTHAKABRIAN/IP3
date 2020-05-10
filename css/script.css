@@ -1,0 +1,104 @@
+@import url("bootstrap.min.css");
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Shadows+Into+Light&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "PT Sans", sans-serif;
+    scroll-behavior: smooth;
+  }
+  /*header*/
+  .header {
+    background: url("../images/backgrounds/h_img.jpg") no-repeat center
+      center/cover;
+    height: 100vh;
+    color: #fff;
+    width: 100%;
+    text-transform: uppercase;
+    position: relative;
+  }
+  h1 {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  h1 span {
+    display: block;
+    font-size: 3rem;
+    margin-top: 2rem;
+  }
+  h2 {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .mouse-click {
+    position: absolute;
+    top: 93vh;
+    left: 50%;
+    cursor: pointer;
+    animation: bounce 0.5s cubic-bezier(0.5, 0.05, 1, 0.5); 
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+  }
+  @keyframes bounce {
+    from {
+      transform: translate3d(0, 0, 0);
+    }
+    to {
+      transform: translate3d(0, -50px, 0);
+    }
+  }
+  #design-text,
+#product-text,
+#development-text {
+  display: none;
+}
+#design-text,
+#design,
+#product-text,
+#product,
+#development-text,
+#development {
+  cursor: pointer;
+}
+.portfolio-box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .description {
+    position: absolute;
+    font-size: 1rem;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 2rem 0.2rem;
+    border: 3px solid #fff;
+    text-align: center;
+    display: none;
+  }
+  /* about*/
+  .about {
+    height: 40vh;
+  }
+  /*services*/
+  .services {
+    background: url("../images/backgrounds/s_image.jpg") center center/cover;
+    height: 50vh;
+    color: #fff;
+  }
+  /**/
+  .contact {
+    background: url("../images/backgrounds/c_image.jpg");
+    color: #fff;
+  }
+  form {
+    width: 70%;
+    margin: 0 auto;
+  }
+  input {
+    display: block;
+    width: 100%;
+  }
