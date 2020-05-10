@@ -10,6 +10,172 @@
     <script src="js/script.js"></script>
 </head>
 <body>
+    <div class=container-fluid>
+        <div class="header d-flex justify-content-center align-items-center flex-column">
+            <img src="" alt="Delani Studio Logo"/>
+            <h1>Welcome<span>to delani studio</span></h1>
+            <h2>Amazing people are making designs in a fun enivornment</h2>
+            <a href="#about"><img src="" alt="Mouse Click Icon" class="mouse-click/></a>
+        </div>
+        <div class="d-flex justify-content-center align-items-center flex-column about">
+            <h3 class="py-5" id="about">ABOUT US</h3>
+            <p>When you work with us, you are part of committed collaborators. All
+                aspects of our software development process are integrated,
+                interactive and agile.
+            </p>
+            <p> Our approach unifies design, development and product management to
+                    create exceptional products.
+            </p>
+            <p> We start each project by understanding your business goals, the user's
+                        needs and the product requirements.
+            </p>
+            <p>Then we help translate them into effective and elegant solutions.</p>
+        </div>
+        <div class="d-flex justify-content-center align-items-center flex-column services">
+            <h3 class="py-5">SERVICES</h3>
+            <p>Before we sign a contract or write a line of code our team will spend
+                the necessary time needed to understand your product vision.
+            </p>
+            <p>The outcome of this scoping session is a proposal or high-level
+                statement of work. Based on your requirements, we can provide a
+                complete offering or just the pieces you need.
+            </p>
+        </div>
+        <div>
+            <h3 class="py-5 text-center">WHAT WE DO</h3>
+            <div class="row d-flex justify-content-around align-items-center text-center">
+                <div class="col-md-3">
+                    <img src="" alt="Design logo" id="design"/>
+                    <h4>DESIGN</h4>
+                    <p id="design-text">
+                        Our design practice offers a full range of services including
+                        brand strategy, interaction and visual design and user experience
+                        testing. Throughout your project, our designers create and
+                        implement visual design and workflows, solicit user feedback and
+                        work with you to make sure what gets built is what is needed.
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <img src="" alt="Development Icon"id="development"/>
+                    <h4>DEVELOPMENT</h4>
+                    <p id="development-text">
+                        All engineers are fluent in the latest enterprise, mobile and web
+                        development technologies. They collaborate with your team to
+                        write, and improve code on a daily basis, using proven practices
+                        such as test-driven development and pair programming.
+                    </p>
+                </div>
+                <div class="col-md-3">
+                     <img src="" alt="Product management icon" id="product"/>
+                     <h4>PRODUCT MANAGEMENT</h4>
+                     <p id="product-text">
+                        Our design practice offers a full range of services including
+                        brand strategy, interaction and visual design and user experience
+                        testing. Throughout your project, our designers create and
+                        implement visual design and workflows, solicit user feedback and
+                        work with you to make sure what gets built is what is needed.
+                     </p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h3 class="text-center py-5">PORTFOLIO</h3>
+        </div>
+        <div class="row d-flex justify-content-center align-items-center">
+            <div class="col-md-2 portfolio-box portfolio-box-1">
+                <img
+                  src="images/portfolio/work1.jpg"
+                  class="img-fluid pt-4"
+                  alt="Work 1"
+                  class="portfolio-item"
+                  id="portfolio-item"
+                />
+                <p class="description description-1">Best Movie App</p>
+              </div>
+              <div class="col-md-2 portfolio-box portfolio-box-2">
+                <img
+                  src="images/portfolio/work2.jpg"
+                  class="img-fluid pt-4"
+                  alt="Work 2"
+                  class="portfolio-item"
+                />
+                <p class="description description-2">Orange Works</p>
+              </div>
+              <div class="col-md-2 portfolio-box portfolio-box-3">
+                <img
+                  src="images/portfolio/work3.jpg"
+                  class="img-fluid pt-4"
+                  alt="Work 3"
+                  class="portfolio-item"
+                />
+                <p class="description description-3">Mighty Ontario</p>
+              </div>
+              <div class="col-md-2 portfolio-box portfolio-box-4">
+                <img
+                  src="images/portfolio/work4.jpg"
+                  class="img-fluid pt-4"
+                  alt="Work 4"
+                  class="portfolio-item"
+                />
+                <p class="description description-4">Black Water</p>
+              </div>
+            </div>
+    <div class="row d-flex justify-content-center align-items-center">
+        <div class="col-md-2 portfolio-box portfolio-box-5">
+            <img src="" class="img-fluid pt-4" alt="Work 5" class="portfolio-item"/>
+            <p class="description description-5">Elexa Connection</p>
+
+        </div>
+        <div class="col-md-2 portfolio-box portfolio-box-6">
+            <img src="" class="img-fluid pt-4" alt="Work 6" class="portfolio-item">
+            <p class="description description-6">A Lot Of Plugin</p>
+        </div>
+        <div class="col-md-2 portfolio-box portfolio-box-7">
+            <img src="" class="img-fluid pt-4" alt="Work &" class="portfolio-item" />
+            <p class="description description-7">Burned Coffee</p>
+
+        </div>
+        <div class="class="col-md-2 portfolio-box portfolio-box-8">
+            <img src="" class="img-fluid pt-4" alt="Work 8" class="portfolio-item">
+            <p class="description description-8">Giraffe Restaurant</p>
+
+        </div>
+    </div>
+    <div class="contact my-5 py-5">
+        <h3 class="text-center py-5">CONTACT</h3>
+        <form>
+          <p class="result"></p>
+          <div class="row">
+            <div class="col-md-6">
+              <p class="name"></p>
+              <input type="text" class="form-control" id="inputName" placeholder="John Doe"/> 
+            </div>
+
+            <div class="col-md-6">
+              <p class="email"></p>
+              <input type="email" class="form-control" id="inputEmail" placeholder="johndoe@email.com"/>
+            </div>
+          </div>
+          <div class="form-group">
+            <p class="message"></p>
+            <textarea type="email" class="form-control" id="inputMessage" cols="30" rows="10"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+      <div class="socials d-flex justify-content-center">
+        <img src="images/social_icons/twitter.png" alt="Twitter Icon" class="px-3 img-fluid" />
+        <img src="images/social_icons/dribble.png" alt="Dribble Icon" class="px-3 img-fluid"/>
+        <img src="images/social_icons/facebook.png" alt="Facebook Icon" class="px-3 img-fluid"/>
+        <img src="images/social_icons/g_plus.png" alt="Google Plus Icon" class="px-3 img-fluid"/>
+        <img src="images/social_icons/skype.png" alt="Skype Icon" class="px-3 img-fluid"/>
+        <img src="images/social_icons/stumble_upon.png" alt="Stumble Upon Icon"/>
+        <img src="images/social_icons/behance.png" alt="Behance Icon" class="px-3 img-fluid"/>
+        <img src="images/social_icons/pinterest.png" alt="Pinterest Icon" class="px-3 img-fluid"/>
+        <img src="images/social_icons/flickr.png" alt="Flickr Icon" class="px-3 img-fluid"/>
+      </div>
+
+    </div>
     
 </body>
 </html>
