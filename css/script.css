@@ -102,3 +102,18 @@
     display: block;
     width: 100%;
   }
+#inputName,
+#inputEmail,
+#inputMessage {
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+}
+#inputName::placeholder,
+#inputEmail::placeholder,
+#inputMessage::placeholder {
+  color: #fff;
+}
+textarea {
+    margin-top: 2em;
+  }
