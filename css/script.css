@@ -112,7 +112,7 @@
 #inputName::placeholder,
 #inputEmail::placeholder,
 #inputMessage::placeholder {
-  color: #fff;
+  color:whitesmoke;
 }
 textarea {
     margin-top: 2em;
