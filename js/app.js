@@ -107,9 +107,9 @@ $(document).ready(function(){
 $(document).ready(function(){
   $("form").submit(function(event) {
     event.preventDefault();
-    let name = $("#inputName").val();
-    let email = $("#inputEmail").val();
-    let message = $("#inputMessage").val();
+    let name = $("#b_name").val();
+    let email = $("#b_email").val();
+    let message = $("#b_comment").val();
     let error = $(".result").addClass("alert alert-danger");
     let success = $(".result").addClass("alert alert-success");
 
