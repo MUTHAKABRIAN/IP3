@@ -102,16 +102,16 @@
     display: block;
     width: 100%;
   }
-#inputName,
-#inputEmail,
-#inputMessage {
+#b_name,
+#b_email,
+#b_comment {
   background: transparent;
   border: 2px solid #fff;
   color: #fff;
 }
-#inputName::placeholder,
-#inputEmail::placeholder,
-#inputMessage::placeholder {
+#b_name::placeholder,
+#b_email::placeholder,
+#b_comment::placeholder {
   color:whitesmoke;
 }
 textarea {
